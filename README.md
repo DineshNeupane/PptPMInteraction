@@ -2,7 +2,7 @@
 
 This repository contains the data-processing, modeling, analysis, and visualization code used for the paper titled:
 
-**“PM2.5 and PM10 Removal by Precipitation Across the United States Using Double Machine Learning: General and Wildfire Smoke Conditions”**
+**“Particulate matter removal by precipitation under normal and wildfire conditions across the United States using double machine learning”**
 
 [https://doi.org/10.21203/rs.3.rs-10855101/v1](https://doi.org/10.21203/rs.3.rs-10855101/v1)
 
