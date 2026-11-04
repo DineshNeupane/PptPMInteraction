@@ -1,8 +1,10 @@
 ## PM Removal by Precipitation Across the United States
 
-This repository contains the data-processing, modeling, analysis, and visualization code used for the manuscript:
+This repository contains the data-processing, modeling, analysis, and visualization code used for the paper titled:
 
 **“PM2.5 and PM10 Removal by Precipitation Across the United States Using Double Machine Learning: General and Wildfire Smoke Conditions”**
+
+[https://doi.org/10.21203/rs.3.rs-10855101/v1](https://doi.org/10.21203/rs.3.rs-10855101/v1)
 
 The study uses hourly EPA AQS PM2.5 and PM10 observations from 2014–2023, NLDAS-2 meteorology, and NOAA HMS wildfire-smoke classifications.
 
