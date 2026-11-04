@@ -1,0 +1,15 @@
+{
+    "log_filename": "../data/process.log",
+    "folder_path": "../data/nldas_subset_data",
+    "file_extension": ".nc4",
+    "processed_files_log": "../data/processed_files.txt",
+    "output_csv": "../data/processed_data_multiprocessed.csv",
+    "coordinates_file": "../data/coordinates/unique_coordinates.csv",
+    "regex_pattern": "NLDAS_\\w+_H\\.A(\\d{8})\\.(\\d{4})\\.002\\.grb\\.SUB\\.nc4",
+    "coordinates_years_file": "\\data\\coordinates\\yearly_coordinates_pm25\\unique_coordinates_with_years_and_id.csv",
+
+    "band_names": [
+        "APCP", "CAPE", "CONVfrac", "DLWRF", "DSWRF",
+        "PEVAP", "PRES", "SPFH", "TMP", "UGRD", "VGRD"
+    ]
+}
