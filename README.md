@@ -8,6 +8,17 @@ This repository contains the data-processing, modeling, analysis, and visualizat
 
 The study uses hourly EPA AQS PM2.5 and PM10 observations from 2014–2023, NLDAS-2 meteorology, and NOAA HMS wildfire-smoke classifications.
 
+#### Reproducing the Analysis
+
+1. Download the EPA AQS, NLDAS-2, and NOAA HMS source data. (mention the list of the files that does it---run the code to download the files)
+2. Place the data in the corresponding folders under `data/`.
+3. Check file paths in `config/config.json` and the scripts.
+4. Install dependencies.
+5. Run the processing files in numerical order.
+6. Run the PM2.5 and PM10 models.
+7. Run the post-model notebooks.
+8. Generate the final figures and result tables.
+
 ### Repository Structure
 
 ```text
@@ -101,17 +112,6 @@ results/pm25/   PM2.5 model and analysis outputs
 results/pm10/   PM10 model and analysis outputs
 reports/        Optional summary outputs
 ```
-
-#### Reproducing the Analysis (bring it to top)
-
-1. Download the EPA AQS, NLDAS-2, and NOAA HMS source data. (mention the list of the files that does it---run the code to download the files)
-2. Place the data in the corresponding folders under `data/`.
-3. Check file paths in `config/config.json` and the scripts.
-4. Install dependencies.
-5. Run the processing files in numerical order.
-6. Run the PM2.5 and PM10 models.
-7. Run the post-model notebooks.
-8. Generate the final figures and result tables.
 
 #### Data Availability
 
